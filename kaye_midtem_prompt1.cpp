@@ -24,8 +24,17 @@ int main()
 
     //function call
     int result = discriminant(first, second, third);
-    /*x = ((-1 * second) + sqrt(num))/2;
-    y = ((-1 * second) - sqrt(num))/2;*/
+    x = ((-1 * second) + result)/2;
+    y = ((-1 * second) - result)/2;
+
+    if(x == y)
+    {
+        cout << "The solution is " << x << "." << endl;
+    }
+    else
+    {
+        cout << "The solutions are " << x << " and " << y << endl;
+    }
 
     //output of the program
     if(result > 0 || result < 0)
