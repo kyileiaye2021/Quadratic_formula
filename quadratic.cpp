@@ -1,7 +1,3 @@
-//Kyi Lei Aye
-//CS002_77215
-//Midterm Project_Prompt 1
-
 #include <iostream>
 #include <cmath>
 
